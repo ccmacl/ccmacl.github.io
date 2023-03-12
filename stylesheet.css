@@ -1,0 +1,38 @@
+@font-face { font-family: gameBoyFont; src: url(gbb.ttf); }
+a:link { text-decoration: none; color:#FFFFFF; }
+a:visited { text-decoration: none; color:#FFFFFF; }
+a:hover { text-decoration: none; color:#FFFFFF; }
+a:active { text-decoration: none; color:#FFFFFF; }
+body {
+	background-color: #164b79;
+	color: #FFFFFF;
+	font-family: gameBoyFont;
+	text-align: center;
+	font-size: 16pt;
+}
+img {
+	border-color: #164b79;
+}
+.button {
+    background-color: #216eb3;
+	cursor: pointer;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: #216eb3;
+	transform: translateY(10px);
+    transition: 0.5s;
+}
+.buttonnopoint {
+    background-color: #216eb3;
+    transition: 0.5s;
+}
+.buttonnopoint:hover {
+    background-color: #216eb3;
+	transform: translateY(10px);
+    transition: 0.5s;
+}
+::selection {
+	background: rgba(0, 0, 0, 0);
+	color: #164b79;
+}
